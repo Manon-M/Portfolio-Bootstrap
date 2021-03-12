@@ -1,0 +1,36 @@
+$theme-colors: (
+  "info": #0C4852,
+  "primary": #C26570,
+  "dark": #B2C8BC,
+  "warning": #E2B9B1
+);
+
+$colorgreen : #0C4852;
+$colorpink: #C26570;
+$colorpinklight : #E2B9B1;
+
+$font-size-base: 1.2rem;
+
+$h1-font-size: 3.5em;
+
+$font-family-sans-serif: "Artigo Display";
+
+$nav-pills-link-active-bg: $colorgreen;
+
+$carousel-control-icon-width: 50px;
+
+$carousel-control-color: $colorgreen;
+
+.titre{
+  h1{
+    color: $colorpink;
+  }
+}
+
+.card-body{
+  h5{
+    color : $colorgreen;
+  }
+}
+
+@import './scss/bootstrap.scss'

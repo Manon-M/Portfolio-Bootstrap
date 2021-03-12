@@ -4,104 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/css/theme.css">
     <title>Accueil - Portfolio</title>
 </head>
 <body>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="../Index.html">Portfolio Manon Michas</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../Index.html">Accueil <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Travaux
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./illustrator.html">Illustrator</a>
-            <a class="dropdown-item" href="./photoshop.html">Photoshop</a>
-            <a class="dropdown-item" href="./indesign.html">Indesign</a>
-            <a class="dropdown-item" href="./after-effect.html">After Effect</a>
-            <a class="dropdown-item" href="./adobexd.html">Adobe XD</a>
-            <a class="dropdown-item" href="./html-css.html">HTML/CSS</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="./contact.html">Contact</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-</header>
-<div class="container">
-    <div class="row mt-3">
-        <div class="col">
-            <h1 class="titre">Créations Illustrator</h1>
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col">
-            <h1>Terrasse Parisienne</h1>
-            <img src="../Images/Paris- 1.png" class="img-fluid" alt="Création sur paris" title="Terrasse Parisienne">
-            <p>Blablablablablablabalbalablab</p>
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col">
-            <h1>Space Planet</h1>
-            <img src="../Images/Space - 3.png" class="img-fluid" alt="Création d'une planète" title="Space Planet">
-            <p>blablbalbalablabalbalbalablabalbalbalbal</p>
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col">
-            <h1>Paysage</h1>
-            <img src="../Images/Months.png" class="img-fluid" alt="Création d'un paysage montagneux" title="Paysage Montagneux">
-            <p>blbalabababalabalbabaalbalabalbaalablabaabalbaabllbababalbalabb</p>
-        </div>
-    </div>
-</div>
-<div class="footer-v1 bg-dark mt-3">
-    <div class="footer no-margin">
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" id="navbar">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="headline"><p>Support</p></div>
-            <address>
-              <ul class="list-unstyled link-list">
-                <li><a href="./contact.html">Contact</a></li>
-                <li>
-                  <a href="#"><i class="fa fa-envelope"></i>manon.michas@gmail.com</a>
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="col-md-3">
-            <div class="headline"><p>Portfolio</p></div>
-            <ul class="list-unstyled link-list">
-              <li><a href="#">A propos de moi</a></li>
-              <li><a href="#">Conditions Générales</a></li>
-              <li><a href="#">Mentions Légale</a></li>
-            </ul>
-          </div>
+        <a class="navbar-brand" href="../Index.html"><img src="../Images/Logo-Manon.svg" alt="logo" width="90" height="90" class="d-inline-block">
+          Portfolio Manon Michas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    </header>
+<div class="container-fluid">
+  <h1 class="text-center text-primary">Créations Illustrator</h1>
+  <div class="row my-5">
+    <hr class="w-25 bg-primary">
+    <img src="../Images/projets.svg" alt="image projets" width="50" height="50">
+    <hr class="w-25 bg-primary">
+  </div>
+    <div class="row d-flex flex-column mt-5 align-items-center">
+      <h1>Terrasse Parisienne</h1>
+      <img src="../Images/Paris- 1.png" class="img-fluid w-75" alt="Création sur paris" title="Terrasse Parisienne">
+      <p class="text-break">Blablablablablablabalbalablab</p>
+    </div>
+    <div class="row d-flex flex-column mt-3 align-items-center">
+      <h1>Space Planet</h1>
+      <img src="../Images/Space - 3.png" class="img-fluid w-75" alt="Création d'une planète" title="Space Planet">
+      <p class="text-break">blablbalbalablabalbalbalablabalbalbalbal</p>
+    </div>
+    <div class="row d-flex flex-column mt-3 align-items-center">
+      <h1>Paysage</h1>
+      <img src="../Images/Months.png" class="img-fluid w-75" alt="Création d'un paysage montagneux" title="Paysage Montagneux">
+      <p class="text-break">blbalabababalabalbabaalbalabalbaalablabaabalbaabllbababalbalabb</p>
+    </div>                                     
+</div>
+<div class="container-fluid p-3 bg-dark text-white">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-4 col-xl-2 m-3">
+        <p class="text-center m-0 h3">Localisation</p>
+        <p class="text-center">Castanet-Tolosan</p>
+      </div>
+      <div class="col-12 col-md-4 col-xl-3 m-3 d-flex flex-column align-items-center">
+        <p class="m-0 h3">Around the Web</p>
+        <div class="row justify-content-center">
+          <a class="px-2" href="#"><img src="../Images/145797-social-network-logo-collection/svg/facebook.svg" alt="image facebook" width="30" height="30" ></a>
+          <a class="px-2" href="#"><img src="../Images/145797-social-network-logo-collection/svg/twitter.svg" alt="image twitter" width="30" height="30" ></a>
+          <a class="px-2" href="#"><img src="../Images/145797-social-network-logo-collection/svg/linkedin.svg" alt="image linkedin" width="30" height="30" ></a>
+          <a class="px-2" href="#"><img src="../Images/145797-social-network-logo-collection/svg/behance.svg" alt="image behance" width="30" height="30" ></a> 
+        </div>         
+      </div>
+      <div class="col-12 col-md-4 col-xl-2 m-3">
+        <p class="text-center m-0 h3 text-wrap">About Freelancer</p>
+        <p class="text-center">description</p>
       </div>
     </div>
   </div>
+</div>
+<div class="container-fluid bg-info text-white">
+  <div class="row justify-content-center">
+    <p>Copyright - Your Website</p>
+  </div>
+</div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
